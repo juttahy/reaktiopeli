@@ -1,0 +1,38 @@
+#overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.gameoverbox {
+    box-sizing: border-box;
+    background: white;
+    padding: 1% 0 0 0;
+    width: 40%;
+    height: 30%;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 20px;
+    position: relative;
+    color: black;
+}
+
+.gameoverbox button {
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: none;
+    color: black;
+}
+
+#gameover {
+    font-size: 1.8em;
+}

@@ -1,0 +1,46 @@
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.circle.active {
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 1); 
+    background: white;
+}
+
+.purple {
+    /* background-color: #975099; */
+    background-color: #7a3e87;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.pink {
+    background-color: #cf1ba2;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.blue {
+    background-color: #59e3de;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.yellow { 
+    background-color: #ebe834;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
